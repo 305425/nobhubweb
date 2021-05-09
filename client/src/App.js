@@ -50,20 +50,6 @@ function App() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   return (
     <div className="loaded">
       <div className="page-container">
