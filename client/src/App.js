@@ -12,6 +12,7 @@ import app5 from './assets/img/App-5.png';
 import axios from "axios"
 import bannerButton from './assets/img/first-screen-bottom.png';
 import { useEffect, useState } from 'react';
+/* eslint-disable react/anchor-is-valid */
 
 function App() {
 
