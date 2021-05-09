@@ -78,7 +78,7 @@ function App() {
                   </button>
                 </div>
                 <div className="header__inner-col">
-                  <a className="header-logo" href="#">
+                  <a className="header-logo">
                     <img className="header-logo__image" src={logo} alt="" />
                   </a>
                 </div>
@@ -149,7 +149,7 @@ function App() {
                     <h1 className="first-screen__title">{data.textfield2}</h1>
                     <h1 className="first-screen__title">{data.textfield3}</h1> */}
                     {/* <p class="first-screen__text">Laboris culpa ea incididunt dolore ipsum tempor duis&nbsp;do ullamco eiusmod officia magna ad id.</p> */}
-                    <a className="first-screen__button button" href="#">
+                    <a className="first-screen__button button" >
                       <span className="button__text">Learn More</span>
                     </a>
                   </div>
@@ -159,8 +159,8 @@ function App() {
               </div>
             </div>
             <div className="first-screen__pseudotext" data-title="work faster with powerful tools" />
-            <img className="first-screen__bg-1" data-bg={bannerFront} src={bannerFront} data-lazy-mob />
-            <img className="first-screen__bg-2" data-bg={bannerButton} src={bannerButton} data-lazy-mob />
+            <img className="first-screen__bg-1" data-bg={bannerFront} src={bannerFront} data-lazy-mob alt="image"/>
+            <img className="first-screen__bg-2" data-bg={bannerButton} src={bannerButton} data-lazy-mob  alt="image"/>
           </section>
           {/* FIRST SCREEN END */}
           <div className="main-top">
@@ -324,7 +324,7 @@ function App() {
                     <p className="downloads__text">Velit occaecat duis occaecat nostrud. Veniam occaecat id ea Lorem est officia excepteur cupidatat consectetur. Labore do nulla ipsum dolore ipsum. Proident excepteur ex aliqua cupidatat adipisicing.</p>
                     <div className="downloads__buttons">
                       <div className="downloads__button-wrap">
-                        <a className="downloads__button button button_big" target="_blank" href="https://play.google.com/store/apps/details?id=com.nobhub.app">
+                        <a className="downloads__button button button_big" target="_blank" rel="noreferrer" href="https://play.google.com/store/apps/details?id=com.nobhub.app">
                           <span className="button__cols">
                             <span className="button__col">
                               <span className="button__icon button__icon_1" />
@@ -337,7 +337,7 @@ function App() {
                         </a>
                       </div>
                       <div className="downloads__button-wrap">
-                        <a className="downloads__button button button_big button_border" href="#">
+                        <a className="downloads__button button button_big button_border" >
                           <span className="button__cols">
                             <span className="button__col">
                               <span className="button__icon button__icon_2" />
