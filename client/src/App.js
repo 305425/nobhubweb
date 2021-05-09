@@ -66,9 +66,9 @@ function App() {
                   </button>
                 </div>
                 <div className="header__inner-col">
-                  <a className="header-logo">
+                  <button className="header-logo">
                     <img className="header-logo__image" src={logo} alt="" />
-                  </a>
+                  </button>
                 </div>
               </div>
             </div>
@@ -147,8 +147,8 @@ function App() {
               </div>
             </div>
             <div className="first-screen__pseudotext" data-title="work faster with powerful tools" />
-            <img className="first-screen__bg-1" data-bg={bannerFront} src={bannerFront} data-lazy-mob alt="image"/>
-            <img className="first-screen__bg-2" data-bg={bannerButton} src={bannerButton} data-lazy-mob  alt="image"/>
+            <img className="first-screen__bg-1" data-bg={bannerFront} src={bannerFront} data-lazy-mob alt=""/>
+            <img className="first-screen__bg-2" data-bg={bannerButton} src={bannerButton} data-lazy-mob  alt=""/>
           </section>
           {/* FIRST SCREEN END */}
           <div className="main-top">
