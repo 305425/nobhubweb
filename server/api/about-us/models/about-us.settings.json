@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutus",
+  "info": {
+    "name": "AboutUs",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitle": {
+      "type": "string"
+    },
+    "EnDescription": {
+      "type": "richtext"
+    },
+    "aboutimage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "EnHindi": {
+      "type": "string"
+    },
+    "EnTelugu": {
+      "type": "string"
+    },
+    "HiDescription": {
+      "type": "richtext"
+    },
+    "TeDescription": {
+      "type": "richtext"
+    },
+    "about_us": {
+      "model": "about-us",
+      "via": "about_uses"
+    },
+    "about_uses": {
+      "collection": "about-us",
+      "via": "about_us"
+    },
+    "menubars": {
+      "via": "about_us",
+      "collection": "menubar"
+    },
+    "presentations": {
+      "via": "about_us",
+      "collection": "presentation"
+    }
+  }
+}

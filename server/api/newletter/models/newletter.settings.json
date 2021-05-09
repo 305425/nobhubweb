@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "newletters",
+  "info": {
+    "name": "newletter",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitle": {
+      "type": "string"
+    },
+    "EnDescrition": {
+      "type": "richtext"
+    },
+    "HiTitle": {
+      "type": "string"
+    },
+    "TeTitle": {
+      "type": "string"
+    },
+    "HiDescription": {
+      "type": "richtext"
+    },
+    "TeDescription": {
+      "type": "richtext"
+    }
+  }
+}

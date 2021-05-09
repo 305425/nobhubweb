@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "mostpopulars",
+  "info": {
+    "name": "MOSTPOPULAR",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitle": {
+      "type": "string"
+    },
+    "EnTitleHead": {
+      "type": "string"
+    },
+    "titilemedia": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "HiTitle": {
+      "type": "string"
+    },
+    "TeTitle": {
+      "type": "string"
+    },
+    "HiTitleHead": {
+      "type": "string"
+    },
+    "TeTitleHead": {
+      "type": "string"
+    }
+  }
+}

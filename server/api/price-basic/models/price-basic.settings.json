@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_basics",
+  "info": {
+    "name": "priceBasic"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitleHead": {
+      "type": "string"
+    },
+    "TeTitleHead": {
+      "type": "string"
+    },
+    "HiTitleHead": {
+      "type": "string"
+    }
+  }
+}

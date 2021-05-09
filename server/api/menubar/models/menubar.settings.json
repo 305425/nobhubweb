@@ -1,0 +1,63 @@
+{
+  "kind": "collectionType",
+  "collectionName": "menubars",
+  "info": {
+    "name": "menubar"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnFeature": {
+      "type": "string"
+    },
+    "HiFeature": {
+      "type": "string"
+    },
+    "TeFeature": {
+      "type": "string"
+    },
+    "EnDownloadApp": {
+      "type": "string"
+    },
+    "HiDownloadApp": {
+      "type": "string"
+    },
+    "TeDownloadApp": {
+      "type": "string"
+    },
+    "EnUIscreens": {
+      "type": "string"
+    },
+    "HiUIscreens": {
+      "type": "string"
+    },
+    "TeUIscreens": {
+      "type": "string"
+    },
+    "EnTestimonials": {
+      "type": "string"
+    },
+    "HiTestimonials": {
+      "type": "string"
+    },
+    "TeTestimonials": {
+      "type": "string"
+    },
+    "EnFAQ": {
+      "type": "string"
+    },
+    "HiFAQ": {
+      "type": "string"
+    },
+    "TeFAQ": {
+      "type": "string"
+    },
+    "about_us": {
+      "model": "about-us",
+      "via": "menubars"
+    }
+  }
+}

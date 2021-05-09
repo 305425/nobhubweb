@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presentations",
+  "info": {
+    "name": "PRESENTATION"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitle": {
+      "type": "string"
+    },
+    "TeTitle": {
+      "type": "string"
+    },
+    "HiTitle": {
+      "type": "string"
+    },
+    "about_us": {
+      "model": "about-us",
+      "via": "presentations"
+    }
+  }
+}

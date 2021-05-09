@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mostpopulars",
+      "handler": "mostpopular.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mostpopulars/count",
+      "handler": "mostpopular.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mostpopulars/:id",
+      "handler": "mostpopular.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mostpopulars",
+      "handler": "mostpopular.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mostpopulars/:id",
+      "handler": "mostpopular.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mostpopulars/:id",
+      "handler": "mostpopular.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

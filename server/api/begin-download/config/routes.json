@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/begin-downloads",
+      "handler": "begin-download.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/begin-downloads/count",
+      "handler": "begin-download.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/begin-downloads/:id",
+      "handler": "begin-download.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/begin-downloads",
+      "handler": "begin-download.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/begin-downloads/:id",
+      "handler": "begin-download.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/begin-downloads/:id",
+      "handler": "begin-download.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

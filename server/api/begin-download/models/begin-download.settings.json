@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "begin_downloads",
+  "info": {
+    "name": "BEGIN DOWNLOAD"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "EnTitle": {
+      "type": "string"
+    },
+    "TeTitle": {
+      "type": "string"
+    },
+    "HiTitle": {
+      "type": "string"
+    },
+    "EnDescription": {
+      "type": "richtext"
+    },
+    "TeDescription": {
+      "type": "richtext"
+    },
+    "HiDescription": {
+      "type": "richtext"
+    }
+  }
+}
